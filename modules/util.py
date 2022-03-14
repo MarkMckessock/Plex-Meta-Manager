@@ -74,11 +74,14 @@ advance_tags_to_edit = {
     "Movie": ["metadata_language", "use_original_title"],
     "Show": ["episode_sorting", "keep_episodes", "delete_episodes", "season_display", "episode_ordering",
              "metadata_language", "use_original_title"],
+    "Video": ["episode_sorting", "keep_episodes", "delete_episodes", "season_display", "episode_ordering",
+              "metadata_language", "use_original_title"],
     "Artist": ["album_sorting"]
 }
 tags_to_edit = {
     "Movie": ["genre", "label", "collection", "country", "director", "producer", "writer"],
     "Show": ["genre", "label", "collection"],
+    "Video": ["genre", "label", "collection"],
     "Artist": ["genre", "style", "mood", "country", "collection", "similar_artist"]
 }
 mdb_types = ["mdb", "mdb_imdb", "mdb_metacritic", "mdb_metacriticuser", "mdb_trakt", "mdb_tomatoes", "mdb_tomatoesaudience", "mdb_tmdb", "mdb_letterboxd"]
